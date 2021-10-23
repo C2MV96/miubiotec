@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 14 px;
+    font-family: sans-serif;
+}
+
+body {
+    text-align: center;
+    background-color: #000000;
+}
+
+.agrupar{
+    width: 1000px;
+    background-image: url('Imagenes/Fondo-2.jpg');
+    border: 10px transparent black;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 40px;
+}
+
+.header{
+    color: rgba(255, 255, 255, 0.945);
+    background: green;
+    opacity: 0.9;
+    border: 1px solid greenyellow;
+}
+
+.header h1{
+    text-align: center;
+}
+
+.menu{
+    background: gray;
+    border: 1px greenyellow;
+    opacity: 0.9;
+    padding: 10px 10px;
+    text-align: right;
+}
+
+.menu li {
+    list-style: none;
+    background: yellow;
+    border: 1px transparent greenyellow;
+    padding: 5px;
+    font: bold 14px cursive;
+    display: inline-block
+}
+
+.seccion {
+    width: 600px;
+    margin: 20px;
+    float: left;
+    background: rgb(255, 255, 255);
+    opacity: 0.9;
+
+}
+
+.columna {
+    margin: 20px 0;
+    width: 350px;
+    float: left;
+}
+
+.columna blockquote{
+    border: 1px solid black;
+    padding: 20px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.Industrial{
+    background: white;
+    color: black;
+    opacity: 0.8;
+}
+
+.Salud{
+    background: red;
+    color: white;
+    opacity: 0.8;
+}
+
+.Agricola{
+    background: green;
+    color: white;
+    opacity: 0.8;
+}
+
+.Ambiental{
+    background: gray;
+    color: black;
+    opacity: 0.8;
+}
+
+.Bioinformatica{
+    background: #FFD500;
+    color: black;
+    opacity: 0.8;
+}
+.pie {
+    clear: both;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    opacity: 0.8;
+}
+
+article {
+    color: black;
+    background: #a5a5a5;
+    opacity: 1;
+    border: 1px solid;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+article footer {
+    text-align: right;
+    margin-top: 5px;
+}
+
+time{
+    color: green;
+}
+
+img {
+    width: 200px;
+    display: block;
+    margin: 20px auto;
+}
